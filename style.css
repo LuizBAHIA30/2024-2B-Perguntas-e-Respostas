@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Oxanium:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fonte-destaque:"Oxanium", sans-serif;
+    --fonte-texto:"Arima", system-ui;
+    --cor-zero:#000000;
+    --cor-um:#2F184B;
+    --cor-dois:#532B88;
+    --cor--tres:#9B72CF;
+    --cor-quatro:#C8B1E4;
+    --cor-cinco:#F4EFFA;
+}
+body{
+    background-color: var(--cor-cinco);
+    font-family: var(--fonte-texto);
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor-quatro);
+    padding: 1em;
+}
+footer p{
+    font-size: 1.2rem;
+    color: var(--cor-um);
+}
+footer a{
+    text-decoration: none;
+    color:var(--cor-zero);
+}
